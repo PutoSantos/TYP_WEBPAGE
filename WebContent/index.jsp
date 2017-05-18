@@ -351,7 +351,7 @@
 				<hr>
 			</div>
 			<div id="login" class="modal">
-				<form class="modal-content animate formulario" action="/action_page.php">
+				<form class="modal-content animate formulario" action="HLoginAccount" method="post">
 					<div class="imgcontainer">
 						<span onclick="document.getElementById('login').style.display='none'" class="close" title="Close Modal">&times;</span>
 						<img src="img/avatar.png" alt="Avatar" class="avatar">
@@ -369,13 +369,12 @@
 					</div>
 			
 					<div class="container-fluid" style="background-color:#f1f1f1">
-						<span class="reg"><a href="#">Registar uma conta</a></span>
-						<span class="psw">Esqueceu a <a href="#">password?</a></span>
+						<span class="psw">Esqueceu a <a href="recover.jsp">password?</a></span>
 					</div>
 			  	</form>
 			</div>
 			<div id="register" class="modal">
-				<form class="modal-content animate formulario" action="/action_page.php">
+				<form class="modal-content animate formulario" action="HRegisterAccount" method="post">
 					<div class="imgcontainer">
 						<span onclick="document.getElementById('register').style.display='none'" class="close" title="Close Modal">&times;</span>
 						<img src="img/avatar.png" alt="Avatar" class="avatar">

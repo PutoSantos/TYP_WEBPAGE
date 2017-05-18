@@ -388,8 +388,7 @@
 					</div>
 			
 					<div class="container-fluid" style="background-color:#f1f1f1">
-						<span class="reg"><a href="#">Registar uma conta</a></span>
-						<span class="psw">Esqueceu a <a href="#">password?</a></span>
+						<span class="psw">Esqueceu a <a href="recover.jsp">password?</a></span>
 					</div>
 			  	</form>
 			</div>
