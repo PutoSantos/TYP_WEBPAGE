@@ -292,65 +292,11 @@
   
 	<div class="container-fluid text-center">  
 		<div class="col-sm-12 text-center conteudo"> 
-			<br><br>
-			<h1>Bem-vindo!</h1>
-			<br><br><br>
-			<p>TextYourPath é um jogo de aventura de texto, onde tens de combater pela tua sobrevivência.</p>
-			<p>Presta atenção ao texto durante o jogo, porque te dará informações importantes sobre a história do jogo.</p>
-			<br><br>
-			<p>Encara a dura realidade de teres de lutar pela tua vida e pela tua liberdade.</p>
-			<p>Irás encontrar perigos iminentes durante o teu caminho, aprende e evolui a cada combate.</p>
-			<p>Nada te preparou para o que vais encontrar ao loongo do teu caminho.</p>
-			<br><br><br><br>
-			<p>Até te desejava boa sorte, se ela não nos tivesse abandonado...</p>
-			<br><br><br>
+			<br><br><br><br><br><br>
 			<hr>
-			<h3>Pré-visualização do jogo</h3>
-			<div class="row">
-				<div class="col-md-2">
-					<div class="thumbnail">
-						<a href="img/img1.png" target="_blank">
-							<img src="img/img1.png" alt="img1" style="width:100%">
-						</a>
-					</div>
-				</div>
-				<div class="col-md-2">
-					<div class="thumbnail">
-						<a href="img/img2.png" target="_blank">
-							<img src="img/img2.png" alt="img2" style="width:100%">
-						</a>
-					</div>
-				</div>
-				<div class="col-md-2">
-					<div class="thumbnail">
-						<a href="img/img3.png" target="_blank">
-							<img src="img/img3.png" alt="img3" style="width:100%">
-						</a>
-					</div>
-				</div>
-				<div class="col-md-2">
-					<div class="thumbnail">
-						<a href="img/img4.png" target="_blank">
-							<img src="img/img4.png" alt="img4" style="width:100%">
-						</a>
-					</div>
-				</div>
-				<div class="col-md-2">
-					<div class="thumbnail">
-						<a href="img/img5.png" target="_blank">
-							<img src="img/img5.png" alt="img5" style="width:100%">
-						</a>
-					</div>
-				</div>
-				<div class="col-md-2">
-					<div class="thumbnail">
-						<a href="img/img6.png" target="_blank">
-							<img src="img/img6.png" alt="img6" style="width:100%">
-						</a>
-					</div>
-				</div>
-			</div>
+				<h4>Login Inválido</h4>
 			<hr>
+			<br><br><br><br><br><br>
 		</div>
 		<div id="login" class="modal">
 			<form class="modal-content animate formulario" action="HLoginAccount" method="post">

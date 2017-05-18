@@ -25,7 +25,8 @@ public class HLoginAccount extends HttpServlet
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 	{
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		request.setAttribute("username", request.getParameter("username"));
+		request.getRequestDispatcher("logged.jsp").forward(request, response);
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
@@ -33,7 +34,18 @@ public class HLoginAccount extends HttpServlet
 		db.ConnectDB();
 		db.loginSystem(request.getParameter("username"), request.getParameter("password"));
 		
-		doGet(request, response);
+		if(db.verify == true)
+		{
+			doGet(request, response);
+		}
+		else
+		{
+			doGetFailure(request, response);
+		}
 	}
-
+	
+	protected void doGetFailure(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+	{
+		request.getRequestDispatcher("fail.jsp").forward(request, response);
+	}
 }

@@ -14,12 +14,11 @@ public class InitDB
 	ResultSet resultset = null;
 	
 	int resultset2;
-	boolean verify = false;
+	public boolean verify = false;
 	String userName, userPass, userEmail;
 	
 	public InitDB()
 	{
-		
 	}
 	
 	/*******************************LIGACAO A BASE DE DADOS************************************/
